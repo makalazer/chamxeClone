@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://file.hstatic.net/200000221779/file/fav_d15a719ee47247438b3c3f160627738b.png"
+        type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./acsset/css/base.css">
+    <link rel="stylesheet" href="./acsset/css/style.css">
+    <link href="./acsset/font/themify-icons/themify-icons.css" rel="stylesheet">
+    <title>Chăm Xe</title>
+</head>
+
+<body>
+    <div class="upper-bar-freeship">
+        <div class="wapper-bar-freeship">
+            <h3 class="bar-heading">Freeship đơn hàng trên 2.000.000VNĐ!</h3>
+            <a class="bar-close js-close-bar" href="#">X</a>
+        </div>
+    </div>
+    <header class="homesite-header">
+        <!-- Begin Uppper Header  -->
+        <div class="header-wapper grid">
+            <div class="upper-header">
+                <div class="header-logo">
+                    <a href="" class="header-logo-link">
+                        <img src="./acsset/img//Chăm Xe VN/chamxe_logo.png" alt="">
+                    </a>
+                </div>
+                <div class="header-search">
+                    <div class="header-search-bar">
+                        <input type="text" class="header-search-input" placeholder="Tìm kiếm sản phẩm...">
+                        <button class="header-search-btn">
+                            <i class="ti-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="header-user">
+                    <a href="#" class="user-link js-user-header">
+                        <span class="user-logo">
+                            <!-- <i class="ti-user header-user-icon"></i> -->
+                            <svg class="svg-ico-account" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23px" height="100%"
+                                viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+                                <g>
+                                    <g id="account-circle">
+                                        <path
+                                            d="M255,0C114.75,0,0,114.75,0,255s114.75,255,255,255s255-114.75,255-255S395.25,0,255,0z M255,76.5
+                                                     c43.35,0,76.5,33.15,76.5,76.5s-33.15,76.5-76.5,76.5c-43.35,0-76.5-33.15-76.5-76.5S211.65,76.5,255,76.5z M255,438.6
+                                                     c-63.75,0-119.85-33.149-153-81.6c0-51,102-79.05,153-79.05S408,306,408,357C374.85,405.45,318.75,438.6,255,438.6z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </span>
+                        <span class="header-user-text">
+                            Đăng nhập/ Đăng ký
+                            <span class="header-user-text2">
+                                Tài khoản của tôi
+                                <i class="ti-angle-down header-user-text-logo"></i>
+                            </span>
+                        </span>
+                    </a>
+                    <div class="user-login js-dropdown ">
+                        <div class="user-container">
+                            <h3 class="login-heading">ĐĂNG NHẬP TÀI KHOẢN</h3>
+                            <p class="login-heading-sub">Nhập email và mật khẩu của bạn:</p>
+                            <div class="login-input-wapper">
+                                <input type="text" class="user-login-input" placeholder=" ">
+                                <label for="login-customer[email]" class="login-input-label">Email</label>
+                            </div>
+                            <div class="login-input-wapper">
+                                <input type="text" class="user-login-input" placeholder=" ">
+                                <label for="login-customer[email]" class="login-input-label">Mật khẩu</label>
+                            </div>
+                            <p class="recapcha-text">
+                                This site is protected by reCAPTCHA and the Google
+                                <a href="https://policies.google.com/privacy" class="recapcha-text-link">Privacy
+                                    Policy </a>
+                                and
+                                <a href="https://policies.google.com/terms" class="recapcha-text-link">Terms and
+                                    Service </a>
+                                apply.
+                            </p>
+                            <button class="login-btn">ĐĂNG NHẬP</button>
+                            <div class="account-action">
+                                <p class="accout-acction-text">
+                                    <a href="" class="accout-action-link">Khách hàng mới?</a>
+                                    Tạo tài khoàn
+                                </p>
+                                <p class="accout-acction-text">
+                                    <a href="" class="accout-action-link">Quên mật khẩu?</a>
+                                    Khôi phục mật khẩu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-cart">
+                    <a href="#" class="header-cart-wapper-link js-cart">
+                        <div class="header-cart-logo">
+                            <i class="ti-bag"></i>
+                            <span class="heder-cart-product-added"> 0 </span>
+                        </div>
+                        <span class="header-cart-text">
+                            Giỏ hàng
+                        </span>
+                    </a>
+                    <div class="cart-dropdown js-cart-dropdown">
+                        <div class="cart-dropdown-container">
+                            <h3 class="cart-dropdown-header">Giỏ hàng</h3>
+                            <div class="cart-empty">
+                                <div class="svgicon-mini-cart">
+                                    <svg width="50" height="50" viewBox="0 0 81 70">
+                                        <g transform="translate(0 2)" stroke-width="4" stroke="#1e2d7d" fill="none"
+                                            fill-rule="evenodd">
+                                            <circle stroke-linecap="square" cx="34" cy="60" r="6"></circle>
+                                            <circle stroke-linecap="square" cx="67" cy="60" r="6"></circle>
+                                            <path
+                                                d="M22.9360352 15h54.8070373l-4.3391876 30H30.3387146L19.6676025 0H.99560547">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <p class="cart-description">Hiện chưa có sản phẩm</p>
+                            </div>
+                            <div class="total-price">
+                                <p class="total-price-text">TỔNG TIỀN</p>
+                                <p class="total-price-number">
+                                    0
+                                    <span class="total-price-unit">đ</span>
+                                </p>
+                            </div>
+                            <div class="cart-btn">
+                                <a href="" class="cart-btn-link black-btn linktocart">Xem giỏ hàng</a>
+                                <a href="" class="cart-btn-link black-btn linktocheckout">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Upper Header -->
+        </div>
+        <div class="header-menu">
+            <nav class="header-navbar grid">
+                <ul class="navbar-list">
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-items-link">
+                            hóa chất
+                            <i class="navbar-icon ti-angle-down"></i>
+                        </a>
+                        <ul class="subnav-list">
+                            <li class="subnav-items">
+                                <a href="#" class="subnav-items-link">ngoại thất</a>
+                            </li>
+                            <li class="subnav-items">
+                                <a href="#" class="subnav-items-link">nội thất</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-items-link">
+                            dụng cụ
+                            <i class="navbar-icon ti-angle-down"></i>
+                        </a>
+                        <ul class="subnav-list">
+                            <li class="subnav-items">
+                                <a href="#" class="subnav-items-link">
+                                    dụng cụ chăm sóc xe
+                                </a>
+                            </li>
+                            <li class="subnav-items">
+                                <a href="#" class="subnav-items-link">
+                                    máy thổi khô
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-items-link">
+                            phụ kiện
+                            <i class="navbar-icon ti-angle-down"></i>
+                        </a>
+                        <ul class="subnav-list">
+                            <li class="subnav-items">
+                                <a href="#" class="subnav-items-link">
+                                    công nghệ
+                                </a>
+                            </li>
+                            <li class="subnav-items">
+                                <a href="#" class="subnav-items-link">
+                                    gạt mua
+                                </a>
+                            </li>
+                            <li class="subnav-items">
+                                <a href="#" class="subnav-items-link">
+                                    nước hoa
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-items-link">
+                            khăn
+                        </a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-items-link">
+                            combo chăm xe
+                        </a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-items-link">
+                            học viện chăm xe
+                        </a>
+                    </li>
+                    <li class="navbar-items">
+                        <a href="#" class="navbar-items-link">
+
+                            liên hệ
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="home-slider-container">
+            <div class="slider-banner js-slider-banner">
+                <img class="slider-img" src="./acsset/img/Chăm Xe VN/Banner 1.jpg" alt="">
+            </div>
+            <div class="slider-banner js-slider-banner">
+                <img src="./acsset/img/Chăm Xe VN/Banner 2.jpg" alt="" class="slider-img">
+            </div>
+            <div class="slider-banner js-slider-banner">
+                <img src="./acsset/img/Chăm Xe VN/Banner 3.jpg" alt="" class="slider-img">
+            </div>
+            <a href="#" class="prev-banner" onclick="plusSlide(-1)">
+                <i class="ti-angle-double-left"></i>
+            </a>
+            <a href="#" class="next-banner" onclick="plusSlide(1)">
+                <i class="ti-angle-double-right"></i>
+            </a>
+            <div class="slider-dot">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+        <div class="home-banner-wapper">
+            <div class="home-banner colum-1-3">
+                <a href="" class="home-banner-link">
+                    <img src="./acsset/img/Chăm Xe VN/Kiến Thức Chăm Sóc Xe.jpg" alt="" class="home-banner-img">
+                    <div class="home-banner-caption">
+                        <p class="home-banner-subtitle">hướng dẫn & chia sẻ</p>
+                        <h3 class="home-banner-title">kiến thức chăm sóc xe</h3>
+                        <a href="" class="home-banner-btn black-btn">xem thêm</a>
+                    </div>
+                </a>
+            </div>
+            <div class="home-banner colum-1-3">
+                <a href="" class="home-banner-link">
+                    <img src="./acsset/img/Chăm Xe VN/Sản Phẩm Mới Nhất.jpg" alt="" class="home-banner-img">
+                    <div class="home-banner-caption">
+                        <p class="home-banner-subtitle">sản phẩm</p>
+                        <h3 class="home-banner-title">mới nhất</h3>
+                        <a href="" class="home-banner-btn black-btn">xem thêm</a>
+                    </div>
+                </a>
+            </div>
+            <div class="home-banner colum-1-3">
+                <a href="" class="home-banner-link">
+                    <img src="./acsset/img/Chăm Xe VN/Trở Thành Đại Lý Phân Phối.jpg" alt="" class="home-banner-img">
+                    <div class="home-banner-caption">
+                        <p class="home-banner-subtitle">trở thành</p>
+                        <h3 class="home-banner-title">đại lý phân phối</h3>
+                        <a href="" class="home-banner-btn black-btn">xem thêm</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <section class="home-product-colection">
+            <div class="colection-container grid">
+                <a href="#" class="heading-home-product-colection">
+                    <h2 class="colection-heading">
+                        Sản phẩm bán chạy
+                    </h2>
+                </a>
+                <div class="row">
+                    <div class="col-1-5 product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-img-wapper">
+                                <img src="./acsset/img/Chăm Xe VN/Cọ Speed Master Lớn.png" alt="" class="product-img">
+                            </div>
+                            <div class="product-detail">
+                                <h3 class="product-name">cọ speed master lớn</h3>
+                                <p class="product-prices">750,000₫</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-1-5 product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-img-wapper">
+                                <img src="./acsset/img/Chăm Xe VN/Bông Rửa Xe Cao Cấp Madness (1).jpg" alt=""
+                                    class="product-img">
+                            </div>
+                            <div class="product-detail">
+                                <h3 class="product-name">Bông Rửa Xe Cao Cấp Madness</h3>
+                                <p class="product-prices">700,000₫</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-1-5 product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-img-wapper">
+                                <img src="./acsset/img/Chăm Xe VN/Khăn Lau Khô Microfiber Tím.png" alt=""
+                                    class="product-img">
+                            </div>
+                            <div class="product-detail">
+                                <h3 class="product-name">khăn lau khô Microfiber tím</h3>
+                                <p class="product-prices">550,000₫</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-1-5 product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-img-wapper">
+                                <img src="./acsset/img/Chăm Xe VN/Dung dich lam bong.png" alt="" class="product-img">
+                            </div>
+                            <div class="product-detail">
+                                <h3 class="product-name">
+                                    Dung Dịch Làm Bóng Nhanh - Sonax High Speed Wax
+                                </h3>
+                                <p class="product-prices">220,000₫</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-1-5 product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-img-wapper">
+                                <img src="./acsset/img/Chăm Xe VN/Dung Dịch Làm Bóng Nhanh - Sonax High Speed Wax.png"
+                                    alt="" class="product-img">
+                            </div>
+                            <div class="product-detail">
+                                <h3 class="product-name">Dung Dịch Lau Kính - Sonax Clear Glass</h3>
+                                <p class="product-prices">180,000₫</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-1-5 product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-img-wapper">
+                                <img src="./acsset/img/Chăm Xe VN/Dung Dịch Vệ Sinh Nội Thất - Sonax Interior Cleaner.png"
+                                    alt="" class="product-img">
+                            </div>
+                            <div class="product-detail">
+                                <h3 class="product-name">Dung Dịch Vệ Sinh Nội Thất - Sonax Interior Cleaner</h3>
+                                <p class="product-prices">170,000₫</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-1-5 product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-img-wapper">
+                                <img src="./acsset/img/Chăm Xe VN/luoi loc can.png" alt="" class="product-img">
+                            </div>
+                            <div class="product-detail">
+                                <h3 class="product-name">Lưới Lọc Cặn Rửa Xe</h3>
+                                <p class="product-prices">160,000₫</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-1-5 product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-img-wapper">
+                                <img src="./acsset/img/Chăm Xe VN/khan lau kinh (pack 2 cai).png" alt=""
+                                    class="product-img">
+                            </div>
+                            <div class="product-detail">
+                                <h3 class="product-name">khăn lau kính (Pack 2 cái)</h3>
+                                <p class="product-prices">160,000₫</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-1-5 product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-img-wapper">
+                                <img src="./acsset/img/Chăm Xe VN/xa bong rua xe.png" alt="" class="product-img">
+                            </div>
+                            <div class="product-detail">
+                                <h3 class="product-name">
+                                    Xà Bông Rửa Xe - Sonax Gloss Shampoo
+                                </h3>
+                                <p class="product-prices">150,000₫</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-1-5 product-item">
+                        <a href="#" class="product-link">
+                            <div class="product-img-wapper">
+                                <img src="./acsset/img/Chăm Xe VN/khan lau kinh ( pack 3 cai ).png" alt=""
+                                    class="product-img">
+                            </div>
+                            <div class="product-detail">
+                                <h3 class="product-name">khăn nội thất ( Pack 3 cái)</h3>
+                                <p class="product-prices">120,000₫</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="about-us-wapper">
+            <div class="about-us">
+                <div class="about-us-container grid">
+                    <div class="about-us-background-img col-1-2"
+                        style="background-image: url('/acsset/img/Chăm\ Xe\ VN/about_us_img.jpg')"></div>
+                    <div class="about-us-information-wapper col-1-2">
+                        <div class="about-us-information">
+                            <p style="text-align: center;">
+                                <span style="font-size:20px"><strong>VỀ CHÚNG TÔI</strong></span>
+                            </p>
+                            <p>Hiện nay, sự đa dạng về thương hiệu cũng như số lượng sản phẩm trên thị trường có thể sẽ
+                                làm
+                                các tín đồ chăm sóc xe phân vân nên sử dụng sản phẩm nào và cách thức sử dụng chúng.</p>
+                            <p>Với nhiều&nbsp;năm kinh nghiệm trong ngành chăm sóc xe, <strong>ChămXe</strong> đã đúc
+                                kết từ
+                                trải nghiệm và lựa chọn những sản phẩm có chất lượng tốt nhất phù hợp với từng nhu cầu
+                                của
+                                mỗi khách hàng.</p>
+                            <p>Bên cạnh đó, <strong>ChămXe</strong> sẽ luôn có đội ngũ tư vấn có thể giải đáp và hướng
+                                dẫn
+                                chi tiết cách sử dụng sản phẩm để có thể mang lại hiệu quả tốt nhất có thể.</p>
+                            <p>Tại <strong>ChămXe</strong>, Quý khách có thể tìm thấy rất nhiều mặt hàng đa dạng phù hợp
+                                với
+                                nhiều lĩnh vực chăm sóc xe khác nhau. Các sản phẩm của chúng tôi chia thành 3 nhóm
+                                chính:
+                            </p>
+                            <p>&nbsp; &nbsp;- Hoá chất chuyên dụng chăm sóc nội/ngoại thất.&nbsp;</p>
+                            <p>&nbsp; &nbsp;- Công cụ và dụng cụ hỗ trợ việc chăm sóc xe.</p>
+                            <p>&nbsp; &nbsp;- Các phụ kiện chuyên biệt cho nội/ngoại thất.&nbsp;</p>
+                            <p>Các sản phẩm tại <strong>ChămXe</strong> đều được nhập trực tiếp hàng chính hãng từ các
+                                nhà
+                                sản xuất uy tín trong và ngoài nước như Sonax, Swissvax, Mothers, Bosch, Chemical Guys…
+                                mà
+                                không thông qua trung gian. Vì vậy, chúng tôi có thể mang những sản phẩm chất lượng với
+                                mức
+                                giá hợp lý nhất thị trường đến Quý khách hàng.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-customer-wapper">
+                <div class="contact-customer grid">
+                    <span class="contact-text">
+                        <i class="ti-email email-icon"></i>
+                        đăng ký nhận tin
+                    </span>
+                    <div class="contact-form">
+                        <input type="text" class="contact-input" placeholder="Nhập Email của bạn">
+                        <button class="contact-form-btn black-btn">đăng ký</button>
+                    </div>
+                    <div class="contact-phone-number">
+                        <span class="phone-number-title">
+                            Hỗ trợ / Mua hàng:
+                        </span>
+                        <a href="tel:0933019010" class="phone-nunmber">0933019010</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container grid">
+            <div class="col-1-3">
+                <div class="footer-col">
+                    <h3 class="footer-title">Giới thiệu</h3>
+                    <p class="footer-content">Chăm Xe VN Với nhiều năm kinh nghiệm trong ngành chăm sóc xe, chúng tôi đã
+                        đúc kết từ trải nghiệm và lựa chọn những sản phẩm có chất lượng tốt nhất phù hợp với từng nhu
+                        cầu của mỗi khách hàng. Bên cạnh đó, ChămXe sẽ luôn có đội ngũ tư vấn có thể giải đáp và hướng
+                        dẫn chi tiết cách sử dụng sản phẩm để có thể mang lại hiệu quả tốt nhất có thể.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-6">
+                <div class="footer-col">
+                    <h3 class="footer-title">Thông tin</h3>
+                    <ul class="footer-content-list">
+                        <li class="footer-content-items">
+                            <a href="" class="footer-content-link">
+                                Quy định chung
+                            </a>
+                        </li>
+                        <li class="footer-content-items">
+                            <a href="" class="footer-content-link">
+                                Chính sách vận chuyển
+                            </a>
+                        </li>
+                        <li class="footer-content-items">
+                            <a href="" class="footer-content-link">
+                                Chính sách đổi trả
+                            </a>
+                        </li>
+                        <li class="footer-content-items">
+                            <a href="" class="footer-content-link">
+                                Chính sách bảo mật thông tin
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-4">
+                <div class="footer-col">
+                    <h3 class="footer-title">Liên hệ</h3>
+                    <ul class="footer-content-list">
+                        <li class="footer-content-items">
+                            <i class="footer-content-icon ti-location-pin"></i>
+                            Quy định chung
+                        </li>
+                        <li class="footer-content-items">
+                            <i class="footer-content-icon ti-headphone-alt"></i>
+                            0933019010
+                        </li>
+                        <li class="footer-content-items">
+                            <i class="footer-content-icon ti-alarm-clock"></i>
+                            T2 - CN | 9:00 - 18:30
+                        </li>
+                        <li class="footer-content-items">
+                            <i class="footer-content-icon ti-email"></i>
+                            chamxe.vn@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-4">
+                <div class="footer-col">
+                    <h3 class="footer-title">FANPAGE</h3>
+                    <img src="./acsset/img/Chăm Xe VN/Ảnh của Chăm Xe..jpg" alt="" class="footer-fanpage-img">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-wapper">
+            <div class="footer-bottom grid">
+                <p class="footer-bottom-content">GLANZ INTERNATIONAL JSC | Mã Số Thuế: 0313730212 | Văn Phòng: 120 Cao
+                    Đức Lân, Phường An Phú, Quận 2, Tp.HCM</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./acsset/js/main.js"></script>
+
+</html>
